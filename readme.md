@@ -49,7 +49,10 @@ The then() method call after the fetch() call is code that will continue process
 
 To make the API call, building the proper URL for fetch(), refer to the documentation for the weather API or book API (depends on app you are building) 
 
-The weather API documentation:
+The Weather API
+---------------
+
+The official documentation:
 https://openweathermap.org/current
 
 You will need to register for an API key on their site. Then read their API documentation to learn how to build a proper url to pass into your fetch() call.  Example, using their sample API:
