@@ -17,6 +17,13 @@ great video (fetching data, like you need to do):
 https://www.youtube.com/watch?v=uBR2wAvGces
 just logs the data from the API to the console. You will need to use that data to place it on the page.
 
+TIP: You may want to wrap your fetch call in a custom function of your own, that takes a parameter of the zip code OR GPS location
+to show weather for.
+
+   function showWeather(zip) {
+     // TODO: build url and make fetch call here
+   }
+
 Updating page elements
 ======================
 
@@ -42,6 +49,8 @@ Get value of an input textbox
 
 Respond to a button click
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick
+
+TIP: read your input value and send it off to your custom showWeather function.
 
 reading a textbox input value
 https://www.w3schools.com/jsref/prop_text_value.asp
