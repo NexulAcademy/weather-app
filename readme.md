@@ -49,6 +49,17 @@ The then() method call after the fetch() call is code that will continue process
 
 To make the API call, building the proper URL for fetch(), refer to the documentation for the weather API or book API (depends on app you are building) 
 
+The weather API documentation:
+https://openweathermap.org/current
+
+You will need to register for an API key on their site. Then read their API documentation to learn how to build a proper url to pass into your fetch() call.  Example, using their sample API:
+
+    fetch('https://api.openweathermap.org/data/2.5/weather?zip=94040,us&APPID=YOUR_KEY_HERE')
+        .then(...);
+
+You can use string concatenation to build the url, so that the hardcoded 94040 zipcode can be replaced with the user specified zip code.
+https://masteringjs.io/tutorials/fundamentals/string-concat
+
 
 Updating page elements
 ======================
