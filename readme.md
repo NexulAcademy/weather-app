@@ -37,6 +37,20 @@ https://api.jquery.com/html/
 OR
 https://api.jquery.com/text/  
 
+Get value of an input textbox
+==============================
+
+Respond to a button click
+https://www.w3schools.com/jsref/met_html_click.asp
+
+reading a textbox input value
+https://www.w3schools.com/jsref/prop_text_value.asp
+
+Getting current user GPS location
+==================================
+
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation
+
 Further reading
 ===============
 
