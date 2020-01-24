@@ -1,5 +1,8 @@
 
-This repo contains resources to help you create a weather app that loads data from an API
+This repo contains resources to help you create a weather app that loads data from an API.
+
+If you have never seen JavaScript code before, you may want to begin with FreeCodeCamp:
+https://www.freecodecamp.org/
 
 JavaScript Functions
 ====================
@@ -32,7 +35,7 @@ Fetching data from an API
 Your 'showWeather' function will need to call an external weather API to get the data. JavaScript offers a function to do just that, called 'fetch'. See the following documentation for how to use fetch.
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch 
 
-Fetch is based on JavaScript 'prommises'. Normal JavaScript code is synchronous, meaning it runs one line before moving to the next line. While a line of code is executing the browser cannot respond to user input. The way to share processing cycles with the browser to respond to user input is with 'asynchronous' code. A Promise is the most basic way to write asynchronous code. The fetch() method itself is designed as an asyncrhonous Promise.
+Fetch is based on JavaScript 'promises'. Normal JavaScript code is synchronous, meaning it runs one line before moving to the next line. While a line of code is executing the browser cannot respond to user input. The way to share processing cycles with the browser to respond to user input is with 'asynchronous' code. A Promise is the most basic way to write asynchronous code. The fetch() method itself is designed as an asynchronous Promise.
 
 helpful conceptual video (fetches an image):  
 https://www.youtube.com/watch?v=tc8DU14qX6I&vl=en
