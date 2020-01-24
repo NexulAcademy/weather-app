@@ -20,9 +20,9 @@ just logs the data from the API to the console. You will need to use that data t
 TIP: You may want to wrap your fetch call in a custom function of your own, that takes a parameter of the zip code OR GPS location
 to show weather for.
 
-   function showWeather(zip) {
-     // TODO: build url and make fetch call here
-   }
+    function showWeather(zip) {
+        // TODO: build url and make fetch call here
+    }
 
 Updating page elements
 ======================
@@ -37,7 +37,8 @@ OR
 https://www.w3schools.com/jsref/prop_node_innertext.asp  
 
 OR you can do the same with jQuery:
- select an element with a jQuery selector  
+
+select an element with a jQuery selector  
 https://api.jquery.com/category/selectors/   
 then update the selected elements content
 https://api.jquery.com/html/ 
@@ -55,7 +56,7 @@ TIP: read your input value and send it off to your custom showWeather function.
 reading a textbox input value
 https://www.w3schools.com/jsref/prop_text_value.asp
 
-var x = document.getElementById("myText").value;
+    var x = document.getElementById("myText").value;
 
 Getting current user GPS location
 ==================================
