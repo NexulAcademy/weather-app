@@ -41,7 +41,7 @@ Get value of an input textbox
 ==============================
 
 Respond to a button click
-https://www.w3schools.com/jsref/met_html_click.asp
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick
 
 reading a textbox input value
 https://www.w3schools.com/jsref/prop_text_value.asp
