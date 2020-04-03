@@ -115,3 +115,6 @@ Further reading
 
 See the Nexul Academy JavaScript walkthrough for examples using some of the above (all but fetch).
 https://github.com/NexulAcademy/intro-html-css-js  
+
+Maybe you want a location search box (auto-complete) like on Google maps?  You can get it from google using their 'places' API.
+https://developers.google.com/places/web-service/autocomplete
