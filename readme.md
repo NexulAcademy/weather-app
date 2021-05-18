@@ -1,3 +1,9 @@
+This repository is ARCHIVED.  More up to date and organized content can be found here:
+https://www.nexulacademy.com/courseware/javascript-introduction
+
+
+Purpose
+=======
 
 This repo contains resources to help you create a weather app that loads data from an API.
 
